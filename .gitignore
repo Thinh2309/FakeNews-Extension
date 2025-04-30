@@ -1,0 +1,29 @@
+# Bỏ qua môi trường ảo
+myenv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+
+# Ignore model files
+*.pt
+*.pkl
+model/*.pt
+model/*.pkl
+
+# VSCode & IDE configs
+.vscode/
+.idea/
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Dotenv / config nội bộ
+.env
+
+# Node (nếu Chrome Extension có dùng npm)
+node_modules/
