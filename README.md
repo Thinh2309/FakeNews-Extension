@@ -48,7 +48,22 @@ Sau khi cài đặt, hãy chạy:
 ```bash
 git lfs install
 ```
-### 4. Ứng Dụng Flask API (app.py)
+## Chrome Extension
+###4. Cài Đặt Extension Trên Trình Duyệt Chrome
+Tải Extension từ Dự Án:
+Trong thư mục dự án, vào thư mục chrome_extension/ (hoặc thư mục chứa mã nguồn của extension).
+Cài Extension vào Chrome:
+Mở Chrome và truy cập vào chrome://extensions/.
+Bật chế độ Developer mode.
+Nhấn Load unpacked và chọn thư mục chrome_extension/ từ dự án của bạn.
+Sử Dụng Extension:
+Sau khi cài đặt, biểu tượng của Extension sẽ xuất hiện trên thanh công cụ của Chrome.
+Để sử dụng Extension:
+Bôi đen (highlight) nội dung tin tức bạn muốn kiểm tra (bất kỳ đoạn văn bản nào từ một bài viết, bài báo, v.v.).
+Nhấp vào biểu tượng Extension trên thanh công cụ Chrome.
+Extension sẽ gửi nội dung bạn vừa bôi đen đến API Flask và trả về kết quả nhận diện tin giả (tin thật hay tin giả).
+
+### 5. Ứng Dụng Flask API (app.py)
 Cấu Hình và Chạy Flask API
 Trong thư mục chứa dự án, chạy ứng dụng Flask:
 ```bash
