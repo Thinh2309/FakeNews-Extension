@@ -18,7 +18,7 @@ Clone dự án từ GitHub vào máy tính của bạn:
 git clone https://github.com/Thinh2309/FakeNews.git
 cd FakeNews
 ```
-2. Cài Đặt Môi Trường Ảo và Các Thư Viện
+### 2. Cài Đặt Môi Trường Ảo và Các Thư Viện
 2.1. Tạo môi trường ảo:
 
 ```bash
@@ -40,16 +40,16 @@ source myenv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-3. Cài Đặt Git LFS (Git Large File Storage)
+### 3. Cài Đặt Git LFS (Git Large File Storage)
 Dự án này có thể chứa các file lớn như mô hình đã huấn luyện. Để tải và làm việc với các file lớn này, bạn cần cài đặt Git LFS:
 
-3.1. Cài đặt Git LFS: Git LFS installation
+Cài đặt Git LFS: Git LFS installation
 Sau khi cài đặt, hãy chạy:
 ```bash
 git lfs install
 ```
-4. Ứng Dụng Flask API (app.py)
-4.1. Cấu Hình và Chạy Flask API
+### 4. Ứng Dụng Flask API (app.py)
+Cấu Hình và Chạy Flask API
 Trong thư mục chứa dự án, chạy ứng dụng Flask:
 ```bash
 python app.py
