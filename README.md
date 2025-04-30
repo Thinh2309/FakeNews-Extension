@@ -50,23 +50,21 @@ git lfs install
 ```
 ##5. Cài Đặt Extension Trên Trình Duyệt Chrome
 
-Tải Extension từ Dự Án:
+5.1. Cài Extension vào Chrome:
 
-Trong thư mục dự án, vào thư mục chrome_extension/ (hoặc thư mục chứa mã nguồn của extension).
-Cài Extension vào Chrome:
+-Mở Chrome và truy cập vào chrome://extensions/.
 
-Mở Chrome và truy cập vào chrome://extensions/.
-Bật chế độ Developer mode.
+-Bật chế độ Developer mode.
 
-Nhấn Load unpacked và chọn thư mục chrome_extension/ từ dự án của bạn.
-Sử Dụng Extension:
+-Nhấn Load unpacked và chọn thư mục chrome_extension/ từ dự án của bạn.
 
-Sau khi cài đặt, biểu tượng của Extension sẽ xuất hiện trên thanh công cụ của Chrome.
-Để sử dụng Extension:
+5.2. Sử Dụng Extension:
 
-Bôi đen (highlight) nội dung tin tức bạn muốn kiểm tra (bất kỳ đoạn văn bản nào từ một bài viết, bài báo, v.v.).
+-Sau khi cài đặt, biểu tượng của Extension sẽ xuất hiện trên thanh công cụ của Chrome.
 
-Nhấp vào biểu tượng Extension trên thanh công cụ Chrome.
+-Bôi đen (highlight) nội dung tin tức bạn muốn kiểm tra (bất kỳ đoạn văn bản nào từ một bài viết, bài báo, v.v.).
 
-Extension sẽ gửi nội dung bạn vừa bôi đen đến API Flask và trả về kết quả nhận diện tin giả (tin thật hay tin giả).
+-Nhấp vào biểu tượng Extension trên thanh công cụ Chrome.
+
+-Extension sẽ gửi nội dung bạn vừa bôi đen đến API Flask và trả về kết quả nhận diện tin giả (tin thật hay tin giả).
 
