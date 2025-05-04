@@ -14,8 +14,6 @@ Dự án này bao gồm một ứng dụng Flask API để nhận diện tin gi�
 ```
 FakeNews-Extension/
 ├── app.py
-├── requirements.txt
-├── README.md
 ├── extension_chrome/
 │   ├── background.js
 │   ├── content.js
@@ -37,6 +35,8 @@ FakeNews-Extension/
 ├── img/
 │   ├── fake.png
 │   └── real.png
+├── README.md
+├── requirements.txt
 ```
 
 
