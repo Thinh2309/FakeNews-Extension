@@ -48,7 +48,7 @@ Sau khi cài đặt, hãy chạy:
 ```bash
 git lfs install
 ```
-##5. Cài Đặt Extension Trên Trình Duyệt Chrome
+## 5. Cài Đặt Extension Trên Trình Duyệt Chrome
 
 5.1. Cài Extension vào Chrome:
 
