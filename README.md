@@ -68,5 +68,8 @@ git lfs install
 
 - Extension sẽ gửi nội dung bạn vừa bôi đen đến API Flask và trả về kết quả nhận diện tin giả (tin thật hay tin giả).
   
-![Ảnh kết quả của extension](img/fakenews.png)
+![Ảnh kết quả tin thật của extension](img/real.png)
+
+![Ảnh kết quả tin giả của extension](img/fake.png)
+
 
