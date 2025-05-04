@@ -52,7 +52,7 @@ git lfs install
 
 5.1. Cài Extension vào Chrome:
 
-- **Mở Chrome và truy cập vào chrome://extensions/.**
+- Mở Chrome và truy cập vào chrome://extensions/.
 
 - **Bật chế độ Developer mode.**
 
