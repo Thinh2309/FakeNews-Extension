@@ -9,7 +9,7 @@ Dự án này bao gồm một ứng dụng Flask API để nhận diện tin gi�
 - **Git (để quản lý mã nguồn)**
 - **Google Chrome (để sử dụng Chrome Extension)** 
 
-<pre><code>## 📁 Cấu trúc thư mục ``` FakeNews-Extension/ ├── app.py ├── requirements.txt ├── README.md ├── extension_chrome/ │ ├── background.js │ ├── content.js │ ├── icon.img │ ├── manifest.json │ ├── popup.html │ ├── popup.js ├── data/ │ └── vn_news.csv ├── model/ │ └── phobert_tokernizer/ │ ├── added_tokens.json │ ├── bpe.codes │ ├── special_tokens_map.json │ ├── tokernizer_config.json │ └── vocab.txt ├── train/ │ └── phoBERT_SVM.ipynb ├── img/ │ ├── fake.png │ └── real.png ``` </code></pre>
+## 📁 Cấu trúc thư mục ``` FakeNews-Extension/ ├── app.py ├── requirements.txt ├── README.md ├── extension_chrome/ │ ├── background.js │ ├── content.js │ ├── icon.img │ ├── manifest.json │ ├── popup.html │ ├── popup.js ├── data/ │ └── vn_news.csv ├── model/ │ └── phobert_tokernizer/ │ ├── added_tokens.json │ ├── bpe.codes │ ├── special_tokens_map.json │ ├── tokernizer_config.json │ └── vocab.txt ├── train/ │ └── phoBERT_SVM.ipynb ├── img/ │ ├── fake.png │ └── real.png ``` 
 
 ## Cài Đặt Môi Trường
 
