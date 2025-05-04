@@ -67,8 +67,12 @@ git lfs install
 - Nhấp vào biểu tượng Extension trên thanh công cụ Chrome.
 
 - Extension sẽ gửi nội dung bạn vừa bôi đen đến API Flask và trả về kết quả nhận diện tin giả (tin thật hay tin giả).
-  
+
+### Tin thật
+
 ![Ảnh kết quả tin thật của extension](img/real.png)
+
+### Tin giả
 
 ![Ảnh kết quả tin giả của extension](img/fake.png)
 
